@@ -21,6 +21,6 @@ dependencies {
 	if (project.getParent() == null) {
 		implementation("com.sandpolis:core.foundation:+")
 	} else {
-		implementation(project(":module:com.sandpolis.core.foundation"))
+		implementation(project(":core:com.sandpolis.core.foundation"))
 	}
 }
